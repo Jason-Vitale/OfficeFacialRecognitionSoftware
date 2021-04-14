@@ -4,13 +4,17 @@ import cv2
 
 
 
+print("\n\nWelcome to \"The Office\" facial recognition software!")
+
+
 KNOWN_OFFICE_FACES_DIR = "known_faces"
 TOLERANCE = 0.6
 FRAME_THICKNESS = 2
 FONT_THICKNESS = 1
 MODEL = "hog"
 
-VIDEO = cv2.VideoCapture("officeclip2480.mp4")
+VIDEO = cv2.VideoCapture("officeclip480.mp4")
+
 
 
 def make_1080p():
