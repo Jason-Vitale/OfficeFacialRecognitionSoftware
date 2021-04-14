@@ -1,0 +1,2 @@
+In the case that you see a "NotADirectoryError: [Errno 20] Not a directory: 'known_faces/.DS_Store'", run
+"find . -name "*.DS_Store" -type f -delete" in your command line. This should get rid of the .DS_Store issue.
